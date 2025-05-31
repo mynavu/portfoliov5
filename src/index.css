@@ -78,7 +78,6 @@ body, html {
 .smallest {
   width: 330px;
   margin: auto;
-  border: red solid 2px;
 }
 
 a {
