@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+body, html {
+  font-family: "DM Mono", monospace;
+  background: rgb(27, 29, 42);
+  color: white;
+  font-weight: 800;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+* {
+  font-family: "DM Mono", monospace;
+}
+
+.l-black {
+  color: rgb(125, 128, 155);
+
+}
+
+.typewriter::after {
+  content: '█';
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fadeIn 1.5s forwards;
+  opacity: 0;
+}
+
+.fade1 {
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+}
+
+.fade2 {
+  animation: fadeIn 2.5s forwards;
+  opacity: 0;
+}
+
+.fade3 {
+  animation: fadeIn 3s forwards;
+  opacity: 0;
+}
+
+.big {
+  font-size: 15px;
+}
+
+.biggest {
+  font-size: 60px;
+}
+
+
+.main {
+  width: 600px;
+  margin: auto;
+}
+
+.small {
+  width: 445px;
+  margin: auto;
+}
+
+.smallest {
+  width: 330px;
+  margin: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.joke {
+  display: hidden;
+}
+
+.banner * {
+  line-height: 120%;
+}
+
+.yellow {
+  color: rgb(255, 255, 155);
+}
+
+.teal {
+  color: rgb(168, 255, 239);
+}
+
+.d-green {
+  color: rgb(149, 255, 176);
+}
+
+.orange {
+  color: rgb(255, 204, 163);
+}
+
+.pink {
+  color: rgb(255, 204, 235);
+}
+
+.purple {
+  color: rgb(230, 204, 255);
+}
+
+.d-blue {
+  color: rgb(155, 190, 255);
+}
+
+.brown {
+  color: rgb(198, 178, 178);
+}
+
+.red {
+  color: rgb(255, 204, 204);
+}
+
+.green {
+  color:rgb(213, 255, 176)
+}
+
+.blue {
+  color: rgb(182, 231, 255);
+}
+
+.pointer {
+  cursor: pointer;
+}
