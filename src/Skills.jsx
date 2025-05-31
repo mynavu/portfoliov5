@@ -28,7 +28,10 @@ export const Skills = () => {
     
 
     return (
-      <div className="small banner" ref={contentRef}>
+      <div className="small banner flex flex-col items-center">
+        <div ref={contentRef}>
+
+        </div>
       </div>
     );
   };

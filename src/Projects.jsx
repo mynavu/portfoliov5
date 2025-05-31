@@ -37,7 +37,7 @@ View more projects in my Gitub.
     
 
     return (
-      <div className="small banner">
+      <div className="small banner flex flex-col items-center">
         <pre>
           {`╭──────────────────────────────────────────────────────────────────────╮`}
         </pre>

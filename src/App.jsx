@@ -143,19 +143,15 @@ function App() {
       <p className='text-center l-black'>────────────────────────────────────────────────────────────────────────────────────────────────</p>
       <p className='mt-15 ml-10'><span className='pink'>visitor</span>@<span className='blue'>portfolio</span>:~$ <span className='typewriter' ref={initRef}></span></p>
       <p className='mb-3 ml-10 fade'>Launching portfolio v0.5 in terminal..</p>
-      <div ref={bannerRef} className='flex banner flex-col justify-center items-center fade1'>
+      <div ref={bannerRef} className='flex banner flex-col items-center fade1'>
       </div>
-      <div className='small fade2' ref={navRef}>
-        <pre className='ml-2.5'>
+      <div className='small fade2 flex flex-col justify-center items-center' ref={navRef}>
+        <pre >
       {`╭───────────────╮ ╭───────────────╮ ╭───────────────╮ ╭──────────────╮`}
         </pre>
-        <div className="flex gap-2">
-          <p className='ml-2.5'>│<span className="pointer ml-12 mr-12" onClick={() => {setPageState('about')}}>About</span>│</p>
-          <p>│<span className="pointer ml-12.5 mr-12.5" onClick={() => {setPageState('links')}}>Links</span>│</p>
-          <p>│<span className="pointer ml-11 mr-11" onClick={() => {setPageState('skills')}}>Skills</span>│</p>
-          <p>│<span className="pointer ml-7 mr-8" onClick={() => {setPageState('projects')}}>Projects</span>│</p>
+        <div >│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('about')}}>About</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('links')}}>Links</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('skills')}}>Skills</span>&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('projects')}}>Projects</span>&nbsp;&nbsp;&nbsp;│
         </div>
-        <pre className='ml-2.5'>
+        <pre >
       {`╰───────────────╯ ╰───────────────╯ ╰───────────────╯ ╰──────────────╯`}
         </pre>
       </div>
@@ -164,7 +160,7 @@ function App() {
   {pageState === 'projects' && <Projects />}
   {pageState === 'skills' && <Skills />}
   {pageState === null && 
-  <div className='small fade3'>
+  <div className='small flex flex-col items-center fade3'>
     <pre>
             {`╭──────────────────────────────────────────────────────────────────────╮`}
     </pre>

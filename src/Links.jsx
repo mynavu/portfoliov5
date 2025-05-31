@@ -26,7 +26,7 @@ E-mail
     
 
     return (
-      <div className="small flex flex-col banner" ref={contentRef}>
+      <div className="small banner flex flex-col items-center" ref={contentRef}>
         <pre>
             {`╭──────────────────────────────────────────────────────────────────────╮`}
         </pre>

@@ -78,6 +78,7 @@ body, html {
 .smallest {
   width: 330px;
   margin: auto;
+  border: red solid 2px;
 }
 
 a {
@@ -138,4 +139,24 @@ a {
 
 .pointer {
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+
+  body {
+    font-size: 6px;
+  }
+
+  .small {
+    width: 265px;
+  }
+  
+  .smallest {
+    width: 230px;
+  }
+
+  .main {
+    width: 370px;
+    margin: auto;
+  }
 }
