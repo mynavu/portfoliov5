@@ -2,7 +2,7 @@
 
 body, html {
   font-family: "DM Mono", monospace;
-  background: rgb(27, 29, 42);
+  background: #191724;
   color: white;
   font-weight: 800;
   font-size: 10px;
@@ -14,7 +14,7 @@ body, html {
 }
 
 .l-black {
-  color: rgb(125, 128, 155);
+  color: #b4acdd;
 
 }
 
@@ -109,7 +109,7 @@ a {
 }
 
 .pink {
-  color: rgb(255, 204, 235);
+  color: #ffd7e2;
 }
 
 .purple {
@@ -133,7 +133,7 @@ a {
 }
 
 .blue {
-  color: rgb(182, 231, 255);
+  color: #bde3ff;
 }
 
 .pointer {
