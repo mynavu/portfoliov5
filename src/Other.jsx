@@ -248,7 +248,7 @@ export const Other = () => {
 `<pre>
 
                                   <span class="red">.</span>
-                                 <span class="red">─*</span>──     
+                                 <span class="red">─<span class="glow-red">*</span></span>──     
                                   <span class="red">'</span> ◯)
                                    /| 
                                    / &#92;
@@ -260,7 +260,7 @@ export const Other = () => {
      
 
         
-                                    ◯  <span class="orange">*</span>
+                                    ◯  <span class="orange glow-orange">*</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -270,8 +270,8 @@ export const Other = () => {
 `<pre>
      
 
-                                       <span class="orange">.</span>
-                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
+                                       <span class="orange glow-orange">.</span>
+                                    ◯ <span class="orange glow-orange">.</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">.</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -282,8 +282,8 @@ export const Other = () => {
 `<pre>
      
 
-                                       <span class="orange">)</span>
-                                    ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
+                                       <span class="orange glow-orange">)</span>
+                                    ◯ <span class="orange glow-orange">(</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">.</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -292,9 +292,9 @@ export const Other = () => {
                 : stateRef.current === "state10" ? 
 `<pre>
 
-                                      <span class="red">.'</span>
-                                       <span class="orange">)'</span>
-                                    ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
+                                      <span class="red glow-red">.'</span>
+                                       <span class="orange glow-orange">)'</span>
+                                    ◯ <span class="orange glow-orange">(</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">.</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -302,10 +302,10 @@ export const Other = () => {
 </pre>`
                 : stateRef.current === "state11" ? 
 `<pre>
-                                       <span class="red">'.</span>
-                                      <span class="red">'..</span>
-                                      <span class="orange">.'</span>
-                                    ◯ <span class="orange">'</span><span class="yellow">*</span><span class="orange">'</span>
+                                       <span class="red glow-red">'.</span>
+                                      <span class="red glow-red">'..</span>
+                                      <span class="orange glow-orange">.'</span>
+                                    ◯ <span class="orange glow-orange">'</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">'</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -314,9 +314,9 @@ export const Other = () => {
                 : stateRef.current === "state12" ? 
 `<pre>
 
-                                       <span class="red">:'</span>
-                                      <span class="orange">; .</span>
-                                    ◯  <span class="yellow">*</span><span class="orange">'</span>
+                                       <span class="red glow-red">:'</span>
+                                      <span class="orange glow-orange">; .</span>
+                                    ◯  <span class="yellow glow-yellow">*</span><span class="orange glow-orange">'</span>
                                    /|&#92;/ 
                                    / &#92;
     
@@ -324,10 +324,10 @@ export const Other = () => {
 </pre>`
                 : stateRef.current === "state13" ? 
 `<pre>
-                                       <span class="red">'</span>
-                                       <span class="red">.'</span>
-                                      <span class="orange">' '</span>
-                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">)</span>
+                                       <span class="red glow-red">'</span>
+                                       <span class="red glow-red">.'</span>
+                                      <span class="orange glow-orange">' '</span>
+                                    ◯ <span class="orange glow-orange">.</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">)</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -336,9 +336,9 @@ export const Other = () => {
                 : stateRef.current === "state14" ? 
 `<pre>
 
-                                        <span class="red">,</span>
-                                      <span class="orange">.(</span>
-                                    ◯  <span class="yellow">*</span>
+                                        <span class="red glow-red">,</span>
+                                      <span class="orange glow-orange">.(</span>
+                                    ◯  <span class="yellow glow-yellow">*</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -348,8 +348,8 @@ export const Other = () => {
 `<pre>
      
 
-                                       <span class="orange">.</span>
-                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
+                                       <span class="orange glow-orange">.</span>
+                                    ◯ <span class="orange glow-orange">.</span><span class="yellow glow-yellow">*</span><span class="orange glow-orange">.</span>
                                    /|&#92;/ 
                                    / &#92;
 
@@ -761,7 +761,7 @@ export const Other = () => {
             {`╭──────────────────────────────────────────────────────────────────────╮`}
         </pre>
             <br />
-            <div className="self-start" ref={contentRef}>
+            <div className="self-start text-md" ref={contentRef}>
 <pre>
     <code>
     <p className="font-thin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try out the Magic-as-a-Service below</p>
@@ -778,7 +778,7 @@ export const Other = () => {
             </div>
             <div className="flex flex-row justify-center text-2xl gap-7">
                 <div className="cursor-pointer font-thin yellow" onClick={() => setEmote("lightning")}>⚡︎</div>
-                <div className="cursor-pointer font-thin red" onClick={() => setEmote("fire")}>ঌ</div>
+                <div className="cursor-pointer glow font-thin red" onClick={() => setEmote("fire")}>ঌ</div>
                 <div className="cursor-pointer font-thin blue" onClick={() => setEmote("spark")}>✦</div>
                 <div className="cursor-pointer font-thin green" onClick={() => setEmote("plant")}>𖧧</div>
             </div>

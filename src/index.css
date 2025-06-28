@@ -16,6 +16,18 @@ body, html {
   font-family: "DM Mono", monospace;
 }
 
+.glow-red {
+  text-shadow: 0 0 8px rgb(255, 173, 173);
+}
+
+.glow-orange {
+  text-shadow: 0 0 8px rgb(255, 204, 163);
+}
+
+.glow-yellow {
+  text-shadow: 0 0 8px rgb(255, 255, 155);
+}
+
 .l-black {
   color: #b4acdd;
 
