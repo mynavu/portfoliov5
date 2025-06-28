@@ -29,9 +29,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──* 
-    / &#92;
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;
 
 
 </pre>`
@@ -39,54 +39,54 @@ export const Other = () => {
 `<pre>
 
 
-       *
-     ◯_│
-    /| 
-    / &#92;
+                                      *
+                                    ◯_│
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state3" ? 
 `<pre>
 
-      *
-       &#92; 
-     ◯/
-    /| 
-    / &#92;
+                                     *
+                                      &#92; 
+                                    ◯/
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state4" ? 
 `<pre>
 
-  <span class="yellow">&#96;</span>
-<span class="yellow">──</span> *──     
-  <span class="yellow">.</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="yellow">&#96;</span>
+                               <span class="yellow">──</span> *──     
+                                 <span class="yellow">.</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state5" ? 
 `<pre>
 
-  <span class="yellow">&#92;</span>
- <span class="yellow">─</span> *──     
-  <span class="yellow">/</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="yellow">&#92;</span>
+                                <span class="yellow">─</span> *──     
+                                 <span class="yellow">/</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state6" ? 
 `<pre>
 
-   <span class="yellow">.</span>
-  <span class="yellow">─*</span>──     
-   <span class="yellow">'</span> ◯)
-    /| 
-    / &#92;
+                                  <span class="yellow">.</span>
+                                 <span class="yellow">─*</span>──     
+                                  <span class="yellow">'</span> ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
@@ -94,44 +94,44 @@ export const Other = () => {
 `<pre>
 
 
-        <span class="yellow">*</span>
-     ◯_/
-    /| 
-    / &#92;
+                                       <span class="yellow">*</span>
+                                    ◯_/
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state8" ? 
 `<pre>
 
-        <span class="yellow">|&#92;,  &#92;_/&#96;</span>
-       <span class="yellow"><* ─._/_</span>
-     ◯_/ <span class="yellow">&#96;  &#92;  &#92;_’</span>
-    /|         <span class="yellow">/&#92;__, </span>
-    / &#92;       <span class="yellow">‘   &#92;</span>
+                                      <span class="yellow">|&#92;,  &#92;_/&#96;</span>
+                                      <span class="yellow"><* ─._/_</span>
+                                    ◯_/ <span class="yellow">&#96;  &#92;  &#92;_’</span>
+                                   /|         <span class="yellow">/&#92;__, </span>
+                                   / &#92;       <span class="yellow">‘   &#92;</span>
 
 
 </pre>`
                 : stateRef.current === "state9" ? 
 `<pre>
 
-       <span class="yellow">. ,</span>
-      <span class="yellow">─</span> * <span class="yellow">───.</span>
-     ◯_/<span class="yellow">'     ───</span>
-    /|          <span class="yellow">/&#92;</span>
-    / &#92;           <span class="yellow">&#92;__/</span>
-                   <span class="yellow">&#92;__</span>
+                                      <span class="yellow">. ,</span>
+                                     <span class="yellow">─</span> * <span class="yellow">───.</span>
+                                    ◯_/<span class="yellow">'     ───</span>
+                                   /|          <span class="yellow">/&#92;</span>
+                                   / &#92;           <span class="yellow">&#92;__/</span>
+                                                  <span class="yellow">&#92;__</span>
 
 </pre>`
                 : stateRef.current === "state10" ? 
 `<pre>
       
 
-        *
-     ◯_/       
-    /|         
-    / &#92;           <span class="yellow">&#92;</span>
-                   <span class="yellow">&#92;_/</span>
+                                       *
+                                    ◯_/       
+                                   /|         
+                                   / &#92;           <span class="yellow">&#92;</span>
+                                                  <span class="yellow">&#92;_/</span>
 
 </pre>`
                 : stateRef.current === "state11" ? 
@@ -139,10 +139,10 @@ export const Other = () => {
        
 
          
-     ◯        
-    /|&#92;──*
-    / &#92;                <span class="yellow">,</span>
-                   <span class="yellow">&#96;_</span>
+                                    ◯        
+                                   /|&#92;──*
+                                   / &#92;                <span class="yellow">,</span>
+                                                  <span class="yellow">&#96;_</span>
 
 </pre>`
                 : 
@@ -150,9 +150,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──* 
-    / &#92;
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;
 
 
 </pre>`;
@@ -194,9 +194,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──* 
-    / &#92;
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;
 
 
 </pre>`
@@ -204,54 +204,54 @@ export const Other = () => {
 `<pre>
 
 
-       *
-     ◯_│
-    /| 
-    / &#92;
+                                      *
+                                    ◯_│
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state3" ? 
 `<pre>
 
-      *
-       &#92; 
-     ◯/
-    /| 
-    / &#92;
+                                     *
+                                      &#92; 
+                                    ◯/
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state4" ? 
 `<pre>
 
-  <span class="red">&#96;</span>
-<span class="red">──</span> *──     
-  <span class="red">.</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="red">&#96;</span>
+                               <span class="red">──</span> *──     
+                                 <span class="red">.</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state5" ? 
 `<pre>
 
-  <span class="red">&#92;</span>
- <span class="red">─</span> *──     
-  <span class="red">/</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="red">&#92;</span>
+                                <span class="red">─</span> *──     
+                                 <span class="red">/</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state6" ? 
 `<pre>
 
-   <span class="red">.</span>
-  <span class="red">─*</span>──     
-   <span class="red">'</span> ◯)
-    /| 
-    / &#92;
+                                  <span class="red">.</span>
+                                 <span class="red">─*</span>──     
+                                  <span class="red">'</span> ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
@@ -260,9 +260,9 @@ export const Other = () => {
      
 
         
-     ◯  <span class="orange">*</span>
-    /|&#92;/ 
-    / &#92;
+                                    ◯  <span class="orange">*</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -270,10 +270,10 @@ export const Other = () => {
 `<pre>
      
 
-        <span class="orange">.</span>
-     ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="orange">.</span>
+                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -282,65 +282,65 @@ export const Other = () => {
 `<pre>
      
 
-        <span class="orange">)</span>
-     ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="orange">)</span>
+                                    ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state10" ? 
 `<pre>
 
-       <span class="red">.'</span>
-        <span class="orange">)'</span>
-     ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
-    /|&#92;/ 
-    / &#92;
+                                      <span class="red">.'</span>
+                                       <span class="orange">)'</span>
+                                    ◯ <span class="orange">(</span><span class="yellow">*</span><span class="orange">.</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state11" ? 
 `<pre>
-        <span class="red">'.</span>
-       <span class="red">'..</span>
-       <span class="orange">.'</span>
-     ◯ <span class="orange">'</span><span class="yellow">*</span><span class="orange">'</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="red">'.</span>
+                                      <span class="red">'..</span>
+                                      <span class="orange">.'</span>
+                                    ◯ <span class="orange">'</span><span class="yellow">*</span><span class="orange">'</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state12" ? 
 `<pre>
 
-        <span class="red">:'</span>
-       <span class="orange">; .</span>
-     ◯  <span class="yellow">*</span><span class="orange">'</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="red">:'</span>
+                                      <span class="orange">; .</span>
+                                    ◯  <span class="yellow">*</span><span class="orange">'</span>
+                                   /|&#92;/ 
+                                   / &#92;
     
 
 </pre>`
                 : stateRef.current === "state13" ? 
 `<pre>
-        <span class="red">'</span>
-        <span class="red">.'</span>
-       <span class="orange">' '</span>
-     ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">)</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="red">'</span>
+                                       <span class="red">.'</span>
+                                      <span class="orange">' '</span>
+                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">)</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state14" ? 
 `<pre>
 
-         <span class="red">,</span>
-       <span class="orange">.(</span>
-     ◯  <span class="yellow">*</span>
-    /|&#92;/ 
-    / &#92;
+                                        <span class="red">,</span>
+                                      <span class="orange">.(</span>
+                                    ◯  <span class="yellow">*</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -348,10 +348,10 @@ export const Other = () => {
 `<pre>
      
 
-        <span class="orange">.</span>
-     ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
-    /|&#92;/ 
-    / &#92;
+                                       <span class="orange">.</span>
+                                    ◯ <span class="orange">.</span><span class="yellow">*</span><span class="orange">.</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -360,9 +360,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──* 
-    / &#92;
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;
 
 
 </pre>`;
@@ -399,9 +399,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──*
-    / &#92;
+                                    ◯
+                                   /|&#92;──*
+                                   / &#92;
 
 
 </pre>`
@@ -409,54 +409,54 @@ export const Other = () => {
 `<pre>
 
 
-       *
-     ◯_│
-    /| 
-    / &#92;
+                                      *
+                                    ◯_│
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state3" ? 
 `<pre>
 
-      *
-       &#92; 
-     ◯/
-    /| 
-    / &#92;
+                                     *
+                                      &#92; 
+                                    ◯/
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state4" ? 
 `<pre>
 
-  <span class="blue">&#96;</span>
-<span class="blue">──</span> *──     
-  <span class="blue">.</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="blue">&#96;</span>
+                               <span class="blue">──</span> *──     
+                                 <span class="blue">.</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state5" ? 
 `<pre>
 
-  <span class="blue">&#92;</span>
- <span class="blue">─</span> *──     
-  <span class="blue">/</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="blue">&#92;</span>
+                                <span class="blue">─</span> *──     
+                                 <span class="blue">/</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state6" ? 
 `<pre>
 
-   <span class="blue">.</span>
-  <span class="blue">─*</span>──     
-   <span class="blue">'</span> ◯)
-    /| 
-    / &#92;
+                                  <span class="blue">.</span>
+                                 <span class="blue">─*</span>──     
+                                  <span class="blue">'</span> ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
@@ -465,9 +465,9 @@ export const Other = () => {
      
         
 
-     ◯  <span class="blue">*</span>
-    /|&#92;/ 
-    / &#92;
+                                    ◯  <span class="blue">*</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -476,9 +476,9 @@ export const Other = () => {
      
         
 
-     ◯      <span class="blue">,   .</span>
-    /|&#92;──<span class="blue">*        +</span>
-    / &#92;
+                                    ◯      <span class="blue">,   .</span>
+                                   /|&#92;──<span class="blue">*        +</span>
+                                   / &#92;
 
 
 </pre>`
@@ -487,9 +487,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──*<span class="blue">         :</span>
-    / &#92;        <span class="blue">*</span>
+                                    ◯
+                                   /|&#92;──*<span class="blue">         :</span>
+                                   / &#92;        <span class="blue">*</span>
 
 
 </pre>`
@@ -499,9 +499,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──*<span class="blue">    +</span>
-    / &#92;          <span class="blue">,  .</span>
+                                    ◯
+                                   /|&#92;──*<span class="blue">    +</span>
+                                   / &#92;          <span class="blue">,  .</span>
 
 
 </pre>`
@@ -510,9 +510,9 @@ export const Other = () => {
      
 
         
-     ◯           <span class="blue">*</span>
-    /|&#92;──*<span class="blue">    :</span>
-    / &#92;    
+                                    ◯           <span class="blue">*</span>
+                                   /|&#92;──*<span class="blue">    :</span>
+                                   / &#92;    
 
 
 </pre>`
@@ -521,9 +521,9 @@ export const Other = () => {
      
 
         
-     ◯         <span class="blue">,    .</span>
-    /|&#92;──*<span class="blue">            +</span>
-    / &#92;
+                                    ◯         <span class="blue">,    .</span>
+                                   /|&#92;──*<span class="blue">            +</span>
+                                   / &#92;
 
 
 </pre>`
@@ -531,22 +531,22 @@ export const Other = () => {
 `<pre>
      
 
-                   <span class="blue">*</span>
-     ◯                 <span class="blue">*</span>           
-    /|&#92;──*<span class="blue">    .         .</span>
-    / &#92;          <span class="blue">+   .</span>
+                                                  <span class="blue">*</span>
+                                    ◯                 <span class="blue">*</span>           
+                                   /|&#92;──*<span class="blue">    .         .</span>
+                                   / &#92;          <span class="blue">+   .</span>
 
 
 </pre>`
                 : stateRef.current === "state14" ? 
 `<pre>
 
-                  <span class="blue">+</span>
+                                                 <span class="blue">+</span>
                                                
-     ◯                       <span class="blue">.</span>
-    /|&#92;──*<span class="blue"> .</span>
-    / &#92;                                  
-                    <span class="blue">+</span>
+                                    ◯                       <span class="blue">.</span>
+                                   /|&#92;──*<span class="blue"> .</span>
+                                   / &#92;                                  
+                                                   <span class="blue">+</span>
 
 </pre>`
                 : 
@@ -554,9 +554,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──* 
-    / &#92;
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;
 
 
 </pre>`;
@@ -593,9 +593,9 @@ export const Other = () => {
 
 
 
-     ◯
-    /|&#92;──*
-    / &#92;
+                                    ◯
+                                   /|&#92;──*
+                                   / &#92;
 
 
 </pre>`
@@ -603,54 +603,54 @@ export const Other = () => {
 `<pre>
 
 
-       *
-     ◯_│
-    /| 
-    / &#92;
+                                      *
+                                    ◯_│
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state3" ? 
 `<pre>
 
-      *
-       &#92; 
-     ◯/
-    /| 
-    / &#92;
+                                     *
+                                      &#92; 
+                                   ◯/
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state4" ? 
 `<pre>
 
-  <span class="green">&#96;</span>
-<span class="green">──</span> *──     
-  <span class="green">.</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="green">&#96;</span>
+                               <span class="green">──</span> *──     
+                                 <span class="green">.</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state5" ? 
 `<pre>
 
-  <span class="green">&#92;</span>
- <span class="green">─</span> *──     
-  <span class="green">/</span>  ◯)
-    /| 
-    / &#92;
+                                 <span class="green">&#92;</span>
+                                <span class="green">─</span> *──     
+                                 <span class="green">/</span>  ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
                 : stateRef.current === "state6" ? 
 `<pre>
 
-   <span class="green">.</span>
-  <span class="green">─*</span>──     
-   <span class="green">'</span> ◯)
-    /| 
-    / &#92;
+                                  <span class="green">.</span>
+                                 <span class="green">─*</span>──     
+                                  <span class="green">'</span> ◯)
+                                   /| 
+                                   / &#92;
 
 
 </pre>`
@@ -659,9 +659,9 @@ export const Other = () => {
      
         
 
-     ◯  <span class="green">*</span>
-    /|&#92;/ 
-    / &#92;
+                                    ◯  <span class="green">*</span>
+                                   /|&#92;/ 
+                                   / &#92;
 
 
 </pre>`
@@ -670,9 +670,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──  <span class="green">*</span>
-    / &#92;
+                                    ◯
+                                   /|&#92;──  <span class="green">*</span>
+                                   / &#92;
 
 
 </pre>`
@@ -682,9 +682,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──・
-    / &#92;     <span class="green">*</span>
+                                    ◯
+                                   /|&#92;──・
+                                   / &#92;     <span class="green">*</span>
 
 
 </pre>`
@@ -693,9 +693,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──* 
-    / &#92;     <span class="green">↟</span>
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;     <span class="green">↟</span>
                
 
 </pre>`
@@ -704,9 +704,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──* 
-    / &#92;     <span class="green">𖧧</span>
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;     <span class="green">𖧧</span>
                
 
 </pre>`
@@ -715,9 +715,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──* 
-    / &#92;     <span class="green">|</span>
+                                    ◯
+                                   /|&#92;──* 
+                                   / &#92;     <span class="green">|</span>
                
 
 </pre>`
@@ -726,9 +726,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──*  <span class="l-pink">*</span>
-    / &#92;     <span class="green">│</span>     
+                                    ◯
+                                   /|&#92;──*  <span class="l-pink">*</span>
+                                   / &#92;     <span class="green">│</span>     
               
 
 </pre>`
@@ -737,9 +737,9 @@ export const Other = () => {
      
 
         
-     ◯
-    /|&#92;──*  <span class="pink">✿</span>
-    / &#92;     <span class="green">│ɞ</span>     
+                                    ◯
+                                   /|&#92;──*  <span class="pink">✿</span>
+                                   / &#92;     <span class="green">│ɞ</span>     
               
 
 </pre>`;
@@ -761,15 +761,15 @@ export const Other = () => {
             {`╭──────────────────────────────────────────────────────────────────────╮`}
         </pre>
             <br />
-            <div className="self-start marginleft" ref={contentRef}>
+            <div className="self-start" ref={contentRef}>
 <pre>
     <code>
-    <p className="font-thin">&nbsp;Magic as</p>
-    <p className="font-thin">a Service!</p>
+    <p className="font-thin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try out the Magic-as-a-Service below</p>
     <br/>
-    {"     ◯"}<br />
-    {"    /|\\"}──*<br />
-    {"    / \\"}
+    <br/>
+    {"                                    ◯"}<br />
+    {"                                   /|\\"}──*<br />
+    {"                                   / \\"}
     <br/>
     <br/>
     <br/>
