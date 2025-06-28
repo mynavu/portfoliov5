@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
+body {
+  background: #191724;
+}
+
 body, html {
   font-family: "DM Mono", monospace;
-  background: #191724;
   color: white;
   font-weight: 800;
   font-size: 10px;
@@ -80,6 +83,10 @@ body, html {
   margin: auto;
 }
 
+.marginleft {
+  margin-left: 190px;
+}
+
 a {
   cursor: pointer;
 }
@@ -112,6 +119,10 @@ a {
   color: #ffd7e2;
 }
 
+.l-pink {
+  color: #fef3f6;
+}
+
 .purple {
   color: rgb(230, 204, 255);
 }
@@ -125,7 +136,7 @@ a {
 }
 
 .red {
-  color: rgb(255, 204, 204);
+  color: rgb(255, 173, 173);
 }
 
 .green {

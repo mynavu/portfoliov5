@@ -12,7 +12,7 @@ export const Skills = () => {
 
     Languages: <span class="yellow">Javascript</span>, <span class="d-blue">Python</span>, <span class="blue">SQl</span>, <span class="orange">HTML</span>, <span class="purple">CSS</span>
 
-    Frameworks/Libraries: <span class="yellow">React.js</span>, <span class="green">Node.js</span>, <span class="blue">Tailwind CSS</span>
+    Frameworks/Libraries: <span class="teal">React.js</span>, <span class="green">Node.js</span>, <span class="blue">Tailwind CSS</span>
 
     Technologies: <span class="d-green">Supabase</span>, <span class="blue">PostgreSQL</span>, <span class="red">Git</span>
 

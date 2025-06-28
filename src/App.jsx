@@ -4,6 +4,7 @@ import { About } from './About';
 import { Links } from './Links';
 import { Skills } from './Skills'
 import { Projects } from './Projects'
+import { Other } from './Other';
 
 function App() {
   const stateRef = useRef("state1");
@@ -147,18 +148,19 @@ function App() {
       </div>
       <div className='small fade2 flex flex-col justify-center items-center' ref={navRef}>
         <pre >
-      {`╭───────────────╮ ╭───────────────╮ ╭───────────────╮ ╭──────────────╮`}
+      {`╭───────────────╮ ╭───────────────╮ ╭───────────────╮ ╭──────────────╮ ╭──────────────╮`}
         </pre>
-        <div >│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('about')}}>About</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('links')}}>Links</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('skills')}}>Skills</span>&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('projects')}}>Projects</span>&nbsp;&nbsp;&nbsp;│
+        <div >│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('about')}}>About</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('links')}}>Links</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('skills')}}>Skills</span>&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('projects')}}>Projects</span>&nbsp;&nbsp;&nbsp;│&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="pointer" onClick={() => {setPageState('other')}}>MaaS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
         </div>
         <pre >
-      {`╰───────────────╯ ╰───────────────╯ ╰───────────────╯ ╰──────────────╯`}
+      {`╰───────────────╯ ╰───────────────╯ ╰───────────────╯ ╰──────────────╯ ╰──────────────╯`}
         </pre>
       </div>
   {pageState === 'about' && <About />}
   {pageState === 'links' && <Links />}
   {pageState === 'projects' && <Projects />}
   {pageState === 'skills' && <Skills />}
+  {pageState === 'other' && <Other />}
   {pageState === null && 
   <div className='small flex flex-col items-center fade3'>
     <pre>

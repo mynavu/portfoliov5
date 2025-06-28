@@ -11,9 +11,9 @@ export const About = () => {
         if (contentRef1.current) {
         contentRef1.current.innerHTML = `
 <pre>
-     _{<span class="yellow">o</span>,<span class="yellow">o</span>}___ 
-     v(  (vvv' 
-       " " 
+   ◯ 
+  /|&#92; 
+  / &#92; 
 </pre>
           `;
 
@@ -41,13 +41,15 @@ Vibes: <span class="pink">░░░▒▒▒▓▓▓█████████
             {`╭──────────────────────────────────────────────────────────────────────╮`}
         </pre>
         <p>&nbsp;</p>
-        <p>Hello! I am a software developer</p>
-        <p>who wear many hats. Click the hat to see.</p>
-        <p>\</p>
-        <p>&nbsp;<span onClick={() => {setHat((prev => prev + 1))}} className="pointer big">{hats[hat % hats.length]}</span></p>
+        <br/>
+        <p className="font-thin">Hello! I am a software developer</p>
+        <p className="font-thin">who wear many hats. Click the hat to see.</p>
+        <p className="font-thin">\</p>
+        <p>&nbsp;<span onClick={() => {setHat((prev => prev + 1))}} className="pointer text-sm">{hats[hat % hats.length]}</span></p>
         <div ref={contentRef1} className="banner">
         </div>
-        <p className="text-center">{roles[hat % hats.length]}</p>
+        <br/>
+        <p className="text-center font-thin">&nbsp;{roles[hat % hats.length]}</p>
         <div ref={contentRef2} className="banner">
         </div>
         <pre>
