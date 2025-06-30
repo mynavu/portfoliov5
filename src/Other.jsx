@@ -766,7 +766,7 @@ export const Other = () => {
             <div className="self-center text-md" ref={contentRef}>
 <pre>
     <code className="flex flex-col items-center">
-    <p className="font-thin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try out the Magic-as-a-Service below</p>
+    <p className="font-thin">Try out the Magic-as-a-Service below</p>
     <br/>
     <br/>
     {"   ◯"}<br />
