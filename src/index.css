@@ -8,7 +8,7 @@ body, html {
   font-family: "DM Mono", monospace;
   color: white;
   font-weight: 800;
-  font-size: 10px;
+  font-size: 11px;
   padding-bottom: 20px;
 }
 
@@ -81,8 +81,9 @@ body, html {
 
 
 .main {
-  width: 600px;
+  width: 630px;
   margin: auto;
+  padding: 0;
 }
 
 .small {
@@ -91,7 +92,7 @@ body, html {
 }
 
 .smallest {
-  width: 330px;
+  width: 350px;
   margin: auto;
 }
 

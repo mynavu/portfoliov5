@@ -139,12 +139,12 @@ function App() {
   }, []);
 
   return (
-    <div className='main'>
-      <p className='ml-5 mt-10 l-black'>Terminal</p>
+    <div className='main flex flex-col items-center'>
+      <p className='mt-10 l-black self-start'>Terminal</p>
       <p className='text-center l-black'>────────────────────────────────────────────────────────────────────────────────────────────────</p>
-      <p className='mt-15 ml-10'><span className='pink'>visitor</span>@<span className='blue'>portfolio</span>:~$ <span className='typewriter' ref={initRef}></span></p>
-      <p className='mb-3 ml-10 fade'>Launching portfolio v0.5 in terminal..</p>
-      <div ref={bannerRef} className='flex banner flex-col items-center fade1'>
+      <p className='mt-15 self-start'><span className='pink'>visitor</span>@<span className='blue'>portfolio</span>:~$ <span className='typewriter' ref={initRef}></span></p>
+      <p className='mb-3 fade self-start'>Launching portfolio v0.5 in terminal..</p>
+      <div ref={bannerRef} className='banner fade1'>
       </div>
       <div className='small fade2 flex flex-col justify-center items-center' ref={navRef}>
         <pre >
@@ -176,7 +176,7 @@ function App() {
   </div>
   }
   <p className='text-center mt-10 l-black'>────────────────────────────────────────────────────────────────────────────────────────────────</p>
-  <p className='ml-5 l-black'>2025 © myna vu</p>
+  <p className='l-black self-start'>2025 © myna vu</p>
   </div>
   );
 }
