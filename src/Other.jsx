@@ -8,6 +8,7 @@ export const Other = () => {
     const contentRef = useRef(null);
 
     useEffect(() => {
+        if (!contentRef.current) return;
         
         if (emote === "lightning") {
             stateRef.current = null;

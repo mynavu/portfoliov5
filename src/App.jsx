@@ -14,6 +14,7 @@ function App() {
   const [pageState, setPageState] = useState(null);
 
   useEffect(() => {
+    if (!bannerRef.current) return;
     bannerRef.current.innerHTML = 
         `
 <pre>
