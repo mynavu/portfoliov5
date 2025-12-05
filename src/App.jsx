@@ -163,18 +163,23 @@ function App() {
   {pageState === 'skills' && <Skills />}
   {pageState === 'other' && <Other />}
   {pageState === null && 
-  <div className='small flex flex-col items-center fade3'>
-    <pre>
-            {`╭──────────────────────────────────────────────────────────────────────╮`}
-    </pre>
-    <p>&nbsp;</p>
-    <p className='text-center blue'>Welcome to my portfolio.</p>
-    <p className='text-center'>Click on a section above to get started.</p>
-    <p>&nbsp;</p>
-    <pre>
-            {`╰──────────────────────────────────────────────────────────────────────╯`}
-    </pre>
-  </div>
+<div className="small flex flex-col items-center fade3">
+  <pre className="whitespace-pre-wrap break-all font-mono">
+{`╭──────────────────────────────────────────────────────────────────────╮`}
+  </pre>
+
+  <p className="my-1">&nbsp;</p>
+
+  <p className="text-center blue break-words">Welcome to my portfolio.</p>
+  <p className="text-center break-words">Click on a section above to get started.</p>
+
+  <p className="my-1">&nbsp;</p>
+
+  <pre className="whitespace-pre-wrap break-all font-mono">
+{`╰──────────────────────────────────────────────────────────────────────╯`}
+  </pre>
+</div>
+
   }
   <p className='text-center mt-10 l-black'>────────────────────────────────────────────────────────────────────────────────────────────────</p>
   <p className='l-black self-start'>2025 © myna vu</p>
