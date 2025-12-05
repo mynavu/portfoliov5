@@ -169,7 +169,7 @@ function App() {
     </pre>
     <p>&nbsp;</p>
     <p className='text-center blue'>Welcome to my portfolio.</p>
-    <p className='text-center'>Press on a section above to get started.</p>
+    <p className='text-center'>Click on a section above to get started.</p>
     <p>&nbsp;</p>
     <pre>
             {`╰──────────────────────────────────────────────────────────────────────╯`}

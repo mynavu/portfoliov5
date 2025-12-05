@@ -5,7 +5,7 @@ export const About = () => {
     const contentRef2 = useRef(null);
     const [hat, setHat] = useState(0);
     const hats = ["🧢","👒","🎩","🎓","👑"];
-    const roles = ["full-stack eng", "front-end eng", "web dev", "student", "desinger"]
+    const roles = ["full-stack eng", "front-end eng", "web dev", "student", "designer"]
 
     useEffect(() => {
         if (contentRef1.current) {
@@ -43,7 +43,7 @@ Vibes: <span class="pink">░░░▒▒▒▓▓▓█████████
         <p>&nbsp;</p>
         <br/>
         <p className="font-thin">Hello! I am a software developer</p>
-        <p className="font-thin">who wear many hats. Click the hat to see.</p>
+        <p className="font-thin">who wears many hats. Click the hat to see.</p>
         <p className="font-thin">\</p>
         <p>&nbsp;<span onClick={() => {setHat((prev => prev + 1))}} className="pointer text-sm">{hats[hat % hats.length]}</span></p>
         <div ref={contentRef1} className="banner">

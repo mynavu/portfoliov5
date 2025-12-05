@@ -45,8 +45,8 @@ View more projects in my Gitub.
         <p>&nbsp;</p>
         <p className="flex justify-center gap-8"><span class="green">◆ Completed</span> <span class="yellow">◆ Developing</span> <span class="blue">◆ Paused</span> <span class="red">◆ Archived</span></p>
         <p>&nbsp;</p>
-        <a href="https://github.com/mynavu/Summarizzler" target="_blank"><span class="green group"><span className="group-hover:hidden">⬦</span><span className="hidden group-hover:inline">⬥</span> Summarizzler</span> - Gemini API, Javascript</a>
-        <p className="font-thin">↳ AI powered web extension that give text summaries using Gen Alpha dialect.</p>
+        <a href="https://chromewebstore.google.com/detail/ai-bro-ai-summaries-and-a/nkknmlgpnldkifjejcmhllffgmkjpnbo" target="_blank"><span class="green group"><span className="group-hover:hidden">⬦</span><span className="hidden group-hover:inline">⬥</span> AI Bro</span> - Gemini API, Javascript</a>
+        <p className="font-thin">↳ AI powered web extension that give text explainations and summaries using Gen Alpha/Z dialect.</p>
         <p>&nbsp;</p>
         <a href="https://marketplace.visualstudio.com/items?itemName=MynaVu.phantom-theme" target="_blank"><span class="green group"><span className="group-hover:hidden">⬦</span><span className="hidden group-hover:inline">⬥</span> Phantom VS Code Theme</span> - CSS</a>
         <p className="font-thin">↳ A cold-toned and pastel VS Code theme extension.</p>
